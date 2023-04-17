@@ -1,0 +1,107 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family:monospace ,cursive,sans-ser;
+/* color:white; */
+}
+/* @font-face{
+    font-family:'digital-clock-font';
+    src: url(./LOOPY___.ttf);
+   } */
+  
+
+:root{
+    --bgc:#070338;
+}
+
+body{
+    background-color: pink;
+    margin:1%;
+}
+
+/* centre-text Class Code  */
+.centre-text{
+    text-align: center;
+}
+
+/* border class  */
+.border{
+    border-radius: 5px;
+    border:2px solid blue;
+}
+
+
+h1,h3,p{
+    color:rgb(223, 221, 230);
+}
+
+/* stop_watch_box Style  */
+.stop_watch_box{
+    padding-top:5vh; 
+    background-color: var(--bgc) ;
+    width:95vw;
+    max-width:400px;
+   
+
+
+}
+
+/* centre any div  */
+.center{
+    margin: auto;
+
+}
+
+/* time box style  */
+.time,.time_name{
+    width:96%;
+    max-width:300px;
+    
+    margin-bottom:1%;
+}
+.time{
+    background-color: white;
+    margin-top: 5vh;
+    /* font-family: digital-clock-font; */
+}
+.time_name{  
+    background-color: cyan;
+    color:darkblue;
+    margin-bottom: 5vh;
+}
+
+/* Button box and buttons' style  */
+.btns{
+    display :flex;
+    justify-content: space-between;
+    width:70%;
+    max-width:350px;
+    border-radius: 4px;
+    background-color: var(--bgc);
+    margin-top:10vh;
+    margin-bottom:5%;
+   
+}
+
+button{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: 900; 
+}
+
+button:hover{
+    scale:1.05;
+    color: red;
+    background-color:white;
+}
+
+button:active{
+    scale:1.07;
+    color: blue;
+    background-color:white;
+}
+
