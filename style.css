@@ -5,11 +5,12 @@ box-sizing:border-box;
 font-family:monospace ,cursive,sans-ser;
 /* color:white; */
 }
-/* @font-face{
-    font-family:'digital-clock-font';
-    src: url(./LOOPY___.ttf);
-   } */
-  
+
+@font-face {
+    font-family: digital-7;
+    src: url('digital-7.regular.ttf');
+  }
+
 
 :root{
     --bgc:#070338;
@@ -17,7 +18,7 @@ font-family:monospace ,cursive,sans-ser;
 
 body{
     background-color: pink;
-    margin:1%;
+    padding-top:5%;
 }
 
 /* centre-text Class Code  */
@@ -28,7 +29,7 @@ body{
 /* border class  */
 .border{
     border-radius: 5px;
-    border:2px solid blue;
+    border:2px dashed black ;
 }
 
 
@@ -60,11 +61,16 @@ h1,h3,p{
     
     margin-bottom:1%;
 }
-.time{
+.time {
     background-color: white;
     margin-top: 5vh;
-    /* font-family: digital-clock-font; */
 }
+
+/* Clock Font  */
+.show_time{
+    font-family:digital-7;
+}
+
 .time_name{  
     background-color: cyan;
     color:darkblue;
@@ -97,6 +103,7 @@ button:hover{
     scale:1.05;
     color: red;
     background-color:white;
+    cursor: pointer;
 }
 
 button:active{
