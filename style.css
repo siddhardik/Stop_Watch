@@ -7,6 +7,12 @@ font-family:monospace ,cursive,sans-ser;
 }
 
 
+@font-face {
+    font-family: "digiFont";
+    src: url("./Asset/digiFont.ttf");
+}
+
+
 
 
 :root{
@@ -64,8 +70,9 @@ h1,h3,p{
 }
 
 /* Clock Font  */
-.show_time{
-    font-family:digital-7;
+.show-time{
+    font-family: digiFont;
+    letter-spacing: 0.13cm;
 }
 
 .time_name{  
