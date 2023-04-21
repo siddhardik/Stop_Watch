@@ -27,6 +27,7 @@ body{
 /* centre-text Class Code  */
 .centre-text{
     text-align: center;
+    /* animation: zoom-in-zoom-out 3s ease-in-out infinite; */
 }
 
 /* border class  */
@@ -38,6 +39,11 @@ body{
 
 h1,h3,p{
     color:rgb(223, 221, 230);
+}
+
+h3{
+    animation: zoom-in-zoom-out 5s ease-in-out infinite; 
+
 }
 
 /* stop_watch_box Style  */
